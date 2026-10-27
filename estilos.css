@@ -1,0 +1,57 @@
+/* Tipografía general y contenedor centrado */
+body {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fafafa;
+    border: 1px solid #cccccc;
+}
+
+/* Título principal con el verde de la cátedra */
+h1 {
+    font-size: 2em;
+    color: #007367;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #007367;
+    padding-bottom: 6px;
+}
+
+/* Subtítulos de cada sección */
+h2 {
+    font-size: 1.3em;
+    color: #007367;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 4px;
+}
+
+/* Espaciado de párrafos */
+p {
+    margin-bottom: 8px;
+}
+
+/* Listas de hobbies y enlaces */
+ul {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Enlaces de contacto */
+a {
+    color: #007367;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
